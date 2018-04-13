@@ -1,4 +1,9 @@
 
 def my_collect(languages)
-  languages.upcase
+  i = 0
+
+  while i < 0
+    yield languages[i]
+
+  end
 end
